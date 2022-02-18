@@ -8,12 +8,11 @@ Created and initiated by @judahsuryaputra
 -   Run `go run json_to_html` on root directory
 -   Go to your browser type `localhost:9000` on address bar
 
-note: the flag urls did not retrieve any image. I think its from the source
+note: Flag images did not showed. Except for **Ascension Island**. Remove `<img src={{ .Flag }} alt="{{ .Name }}'s flag" width="100" height="100">` and replace it with `{{  .Flag  }}` to show only url instead.
 
 ## Test Number 2
 
 Please open code_b.go
-
 
 ## Test Number 3
 
